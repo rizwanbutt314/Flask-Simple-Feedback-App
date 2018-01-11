@@ -1,0 +1,51 @@
+
+#trends{
+    border:1px solid green;
+    width:30%;
+    height:600px;
+    display:inline-block;
+    overflow:auto;
+}
+#analysis{
+    border:1px solid green;
+    width : 67%;
+    display:inline-block;
+    float:right;
+}
+
+
+#trends h3, #analysis h3{
+    text-align:center;
+    color:rgb(29, 161, 242);
+    font-weight:bold;
+}
+
+.navbar-brand
+{
+    color:rgb(29, 161, 242) !important;
+    font-weight:bold;
+}
+
+.trendsList li:hover{
+    cursor:pointer;
+}
+
+.nvd3.nv-legend
+{
+    align:center;
+}
+
+#trends::-webkit-scrollbar {
+    width: 12px;
+}
+
+#trends::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+#trends::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgb(29, 161, 242);
+}
+
